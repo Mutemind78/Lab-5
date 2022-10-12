@@ -1,0 +1,100 @@
+@import url(./reset.css);
+
+/* defaults part begins */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:  #c3cdea;
+}
+
+p{
+    margin: 1.2em;
+    line-height: 1.5em;
+}
+/* defaults part ends */
+
+/*  header part begins */
+
+.header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0b549e;
+    text-shadow: 2px 1px #00000080;
+}
+
+.header > h1{
+    font-size: 42pt;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header > p{
+    font-size: 18pt;
+}
+/* header part ends */
+
+/* main part begins */
+section > h2{
+    font-size: 2.1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1.3em;
+    background: linear-gradient(90deg, #020024 0%, #e02046 0%, #c3cdea  100%);
+    color: #0b549e;
+    text-shadow: 2px 2px #00000080;
+}
+
+.section-div{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-div p{
+    padding: 1em;
+    font-size: 13pt;
+    color: #113960;
+    overflow: hidden;
+}
+
+.section-div p:nth-child(3){
+    color: #8162d5 !important;
+}
+
+.section-div p:nth-child(odd){
+    color: #ea174b;
+}
+
+.section-div p:nth-child(even){
+    background: #ea174b;
+    color: #020202;
+}
+
+.section-div > img{
+    width: 300px;
+    float: left;
+    margin-right: 1em;
+}
+/* main part ends */
+
+/* footer part begins*/
+footer{
+    width: 100%;
+    height: 64px;
+    background: linear-gradient(90deg, #020024 0%, #e02046 0%, #c3cdea 100%);
+    font-size: 18pt;
+    font-weight: bold;
+    color: #0b549e;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer part ends */
